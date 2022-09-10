@@ -1,0 +1,43 @@
+.footer{
+    background: #d6d4d4;
+}
+
+.footer .navbar{
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.footer .nav-list li a{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.44351px;
+    color: $primary;
+}
+
+.footer .networks .networks-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer .networks-list li{
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+.footer .networks-list li:hover{
+    opacity: .5;
+}

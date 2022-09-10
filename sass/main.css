@@ -1,0 +1,560 @@
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Lora:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+ul,
+p {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1199px) {
+  .container {
+    width: 340px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1340px;
+  }
+}
+
+.btn {
+  background-color: #010101;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.navbar {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+
+.nav-list li a {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.44351px;
+  color: #000000;
+}
+
+.search-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 33px;
+}
+
+.search-list li {
+  cursor: pointer;
+}
+
+.hero {
+  background-image: url("../../img/hero-img.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: 776px;
+  margin-bottom: 83px;
+}
+
+.hero h1 {
+  padding-top: 82px;
+  font-family: "Belleza";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 111px;
+  letter-spacing: -0.5px;
+  color: #010101;
+  margin-bottom: 40px;
+}
+
+.hero button {
+  padding: 14.29px 44px;
+  border-radius: 38.1px;
+  color: #ffffff;
+  margin-bottom: 80px;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+
+.hero h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 41px;
+}
+
+.hero p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 65px;
+  color: #000000;
+}
+
+.hero ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+
+.hero .bloomberg {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.hero .forbes {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.learn-more {
+  margin-bottom: 156px;
+}
+
+.learn-more ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 130px;
+  margin-bottom: 66px;
+}
+
+.learn-more ul li:first-child p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.learn-more ul li:last-child p {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  color: #000000;
+}
+
+.learn-more a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learn-more a:hover {
+  opacity: 0.6;
+}
+
+.learn-more a span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-right: 34px;
+}
+
+.steps {
+  margin-bottom: 114px;
+  height: 700px;
+  position: relative;
+  margin-bottom: 53px;
+}
+
+.steps .top {
+  height: 264px;
+}
+
+.steps .bottom {
+  width: 100%;
+  height: 436px;
+  background-color: #dbd7d7;
+}
+
+.steps .bottom img {
+  position: absolute;
+  top: -9%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 60px;
+}
+
+.steps .bottom .info {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1335px;
+}
+
+.steps .bottom .info p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.steps .bottom .info h3 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  color: #000000;
+}
+
+.steps .info .arrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.steps .bottom .info .arrows svg {
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+
+.steps .bottom .info .arrows svg:hover {
+  opacity: 0.5;
+}
+
+.shop {
+  margin-bottom: 164px;
+}
+
+.shop h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin-bottom: 37px;
+}
+
+.shop h2 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 61px;
+  color: #000000;
+  margin-bottom: 37px;
+}
+
+.shop .btn {
+  padding: 10.75px 44.5px;
+  border-radius: 28.68px;
+  cursor: pointer;
+  color: #ffffff;
+  margin-bottom: 52px;
+  transition: 0.5s all ease;
+}
+
+.shop .slider {
+  margin-left: auto;
+}
+
+.slider ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+}
+
+.slider ul li:not(:last-child) {
+  width: 368px;
+}
+
+.slider ul li img {
+  margin-bottom: 18px;
+}
+
+.slider .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider ul li .title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.slider ul li .price {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.reviews {
+  margin-bottom: 55px;
+}
+
+.reviews .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.review-description-div {
+  width: 302px;
+  height: 250px;
+}
+
+.reviews h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+}
+
+.reviews .review-description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 14px;
+}
+
+.reviews ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 15px;
+}
+
+.reviews ul li:last-child {
+  margin-left: 11px;
+}
+
+.review span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  margin-left: 100px;
+}
+
+.review {
+  width: 676px;
+  margin-bottom: 55px;
+}
+
+.review-text {
+  margin-bottom: 60px;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  color: #000000;
+}
+
+.review-name {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+  margin-bottom: 11px;
+}
+
+.review-place {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.reviews .arrows svg {
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+
+.reviews .arrows svg:hover {
+  opacity: 0.5;
+}
+
+.gallery {
+  margin-bottom: 50px;
+}
+
+.gallery .container img:first-child {
+  margin-right: 55px;
+}
+
+.gallery .container img:last-child {
+  margin-top: 50px;
+}
+
+.subscribe {
+  margin-bottom: 67px;
+}
+
+.subscribe .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.subscribe h2 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 61px;
+  color: #000000;
+}
+
+.subscribe form {
+  width: 426px;
+  border-bottom: 2px solid #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscribe form button {
+  padding: 9.84px 29.53px;
+  color: #ffffff;
+  border-radius: 26.25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+
+.subscribe form input {
+  outline: none;
+  padding: 18px 7px;
+  border: none;
+}
+
+.footer {
+  background: #d6d4d4;
+}
+
+.footer .navbar {
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+
+.footer .nav-list li a {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.44351px;
+  color: #000000;
+}
+
+.footer .networks .networks-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.footer .networks-list li {
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+.footer .networks-list li:hover {
+  opacity: 0.5;
+}/*# sourceMappingURL=main.css.map */

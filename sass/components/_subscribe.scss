@@ -1,0 +1,42 @@
+.subscribe{
+    margin-bottom: 67px;
+}
+
+.subscribe .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.subscribe h2{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 61px;
+    color: $primary;
+}
+
+.subscribe form{
+    width: 426px;
+    border-bottom: 2px solid $primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe form button{
+    padding: 9.84px 29.53px;
+    color: #ffffff;
+    border-radius: 26.25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: .5s all ease;
+}
+
+.subscribe form input{
+    outline: none;
+    padding: 18px 7px;
+    border: none;
+
+}

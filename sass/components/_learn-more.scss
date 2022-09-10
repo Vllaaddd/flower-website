@@ -1,0 +1,50 @@
+.learn-more{
+    margin-bottom: 156px;
+}
+
+.learn-more ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 130px;
+    margin-bottom: 66px;
+}
+
+.learn-more ul li:first-child p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 24px;
+    line-height: 29px;
+    color: $primary;
+}
+
+.learn-more ul li:last-child p{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    color: $primary;
+}
+
+.learn-more a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-more a:hover{
+    opacity: .6;
+}
+
+.learn-more a span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: $primary;
+    text-transform: uppercase;
+    margin-right: 34px;
+}

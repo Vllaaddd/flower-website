@@ -1,0 +1,102 @@
+.reviews{
+    margin-bottom: 55px;
+}
+
+.reviews .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.review-description-div{
+    width: 302px;
+    height: 250px;
+}
+
+.reviews h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: $primary;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+
+.reviews .review-description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 16px;
+    line-height: 19px;
+    color: $primary;
+    margin-bottom: 14px;
+}
+
+.reviews ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 15px;
+}
+
+.reviews ul li:last-child{
+    margin-left: 11px;
+}
+
+.review span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: $primary;
+    margin-left: 100px;
+}
+
+.review{
+    width: 676px;
+    margin-bottom: 55px;
+}
+
+.review-text{
+    margin-bottom: 60px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    color: $primary;
+}
+
+.review-name{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: $primary;
+    margin-bottom: 11px;
+}
+
+.review-place{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 16px;
+    line-height: 19px;
+    color: $primary;
+}
+
+.reviews .arrows svg{
+    cursor: pointer;
+    transition: .5s all ease;
+}
+
+.reviews .arrows svg:hover{
+    opacity: .5;
+}

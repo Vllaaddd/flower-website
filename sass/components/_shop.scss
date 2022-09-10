@@ -1,0 +1,76 @@
+.shop{
+    margin-bottom: 164px;
+}
+
+.shop h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: $primary;
+    margin-bottom: 37px;
+}
+
+.shop h2{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 61px;
+    color: $primary;
+    margin-bottom: 37px;
+}
+
+.shop .btn{
+    padding: 10.75px 44.5px;
+    border-radius: 28.68px;
+    cursor: pointer;
+    color: #ffffff;
+    margin-bottom: 52px;
+    transition: .5s all ease;
+}
+
+.shop .slider{
+    margin-left: auto;
+}
+
+.slider ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+
+.slider ul li:not(:last-child){
+    width: 368px;
+}
+
+.slider ul li img{
+    margin-bottom: 18px;
+}
+
+.slider .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider ul li .title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: $primary;
+}
+
+.slider ul li .price{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
